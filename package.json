@@ -31,5 +31,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/anytools-app/firebase-web-tool.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
