@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2022"],
+    "target": "es2022",
+    "module": "ESNext",
+    "rootDir": "./src",
+    "baseUrl": "./",
+    "paths": {
+      "@nextjs-firebase-web-tool/*": ["src/*"],
+      "*": ["src/@types/*"]
+    },
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "sourceMap": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
