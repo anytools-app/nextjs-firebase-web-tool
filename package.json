@@ -1,5 +1,5 @@
 {
-  "name": "@anytools/nextjs-firebase-web-tool",
+  "name": "@anytools-app/nextjs-firebase-web-tool",
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
